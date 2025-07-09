@@ -40,12 +40,7 @@ This Chrome extension allows users to crop a region of any web page and detect 1
    - Draw a rectangle over the barcode area.
    - The detected barcode value will be displayed in the popup.
 
-## Screenshots / Demo GIFs
 
-> _Add screenshots or demo GIFs here_
->
-> ![Screenshot 1](screenshots/screenshot1.png)
-> ![Demo GIF](screenshots/demo.gif)
 
 ## Supported Barcode Formats
 This extension supports the following 1D barcode formats via QuaggaJS:
