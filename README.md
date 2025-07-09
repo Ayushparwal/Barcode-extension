@@ -21,8 +21,8 @@ This Chrome extension allows users to crop a region of any web page and detect 1
 
 1. **Clone or Download the Repository**
    ```
-   git clone https://github.com/yourusername/barcode-chrome-extension.git
-   cd barcode-chrome-extension
+   git clone https://github.com/Ayushparwal/Barcode-extension.git
+   cd Barcode-extension
    ```
 
 2. **Install Dependencies**
