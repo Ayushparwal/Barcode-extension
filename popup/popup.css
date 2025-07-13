@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    width: 350px;
+    margin: 15px;
+    background: #fafbfc;
+    color: #222;
+}
+h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+#crop-btn, #copy-btn {
+    padding: 8px 14px;
+    margin-top: 5px;
+    border: none;
+    background: #1e90ff;
+    color: #fff;
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#status {
+    margin: 10px 0;
+    font-style: italic;
+}
+#result-section {
+    margin-top: 12px;
+    text-align: center;
+}
+#cropped-img {
+    max-width: 250px;
+    max-height: 160px;
+    border: 1px solid #ddd;
+    margin-bottom: 6px;
+}
+#barcodes {
+    background: #fff;
+    padding: 5px 8px;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #222;
+    border: 1px solid #e0e0e0;
+    word-break: break-all;
+}
+#barcodes .barcode-row {
+    margin-bottom: 3px;
+    border-bottom: 1px solid #eee;
+}

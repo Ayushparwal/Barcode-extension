@@ -1,0 +1,49 @@
+{
+  "manifest_version": 3,
+  "name": "Barcode Chrome Extension",
+  "version": "1.0",
+  "description": "Crop any web page and detect barcodes in the selected region. 100% client-side.",
+  "permissions": [
+  "activeTab",
+  "scripting",
+  "storage",
+  "tabs"
+],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup/popup.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "32": "icons/icon32.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content/cropper.js"],
+      "css": ["content/cropper.css"]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "content/cropper.css",
+        "content/cropper.js"
+      ],
+      "matches": ["<all_urls>"]
+    }
+  ],
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}

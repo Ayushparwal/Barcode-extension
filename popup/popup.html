@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Barcode Detector</title>
+    <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+    <h2>Barcode Crop & Detect</h2>
+    <button id="crop-btn">Crop Screen</button>
+    <div id="status"></div>
+    <div id="result-section" style="display: none;">
+        <img id="cropped-img" />
+        <div id="barcodes"></div>
+    </div>
+    <button id="copy-btn" style="display:none;">Copy All</button>
+    <script src="../libs/quagga.min.js"></script>
+    <script src="../libs/jsQR.js"></script>
+    <script src="popup.js"></script>
+</body>
+</html>
